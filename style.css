@@ -3,13 +3,17 @@
 }
 /* a{
     cursor: pointer;
-    width: 48%;
+    width: 20%;
+    height: 31px;
     font-family: 'Quicksand', sans-serif;
     background-color: #1a73e8;
     color: white;
     outline: none;
     font-weight: 600;
     border: none;
+    transform: translateX(134px);
+    transform: translateY(191px);
+    margin-left: 251px;
     border-radius: 5px;
 } */
 body,html{
@@ -70,6 +74,7 @@ body{
     color: rgba(0,0,0,0.7);
     padding-left: 18px;
     font-size: 1em;
+    transform: translateY(31px);
 }
 #placeholder{
     font-family: 'Noto Sans', sans-serif;
@@ -136,6 +141,8 @@ body{
     font-size: 0.85em;
     border: none;
     border-radius: 5px;
+    /* transform: translateX(10px); */
+    transform: translateY(8px);
 }
 #btn2{
     justify-content: flex-end;
