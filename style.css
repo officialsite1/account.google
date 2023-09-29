@@ -74,6 +74,7 @@ body{
     color: rgba(0,0,0,0.7);
     padding-left: 18px;
     font-size: 1em;
+    transform: translateY(31px);
 }
 #placeholder{
     font-family: 'Noto Sans', sans-serif;
